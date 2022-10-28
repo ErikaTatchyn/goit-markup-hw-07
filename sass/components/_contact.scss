@@ -1,0 +1,33 @@
+.contact {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contact-address {
+  color: #ffffff;
+  transition: color var(--transition-dur-and-func);
+}
+
+.contact__svg-email {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.contact__svg-phone {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
