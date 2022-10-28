@@ -112,7 +112,7 @@ img {
 .current::after {
   content: "";
   position: absolute;
-  bottom: -33px;
+  bottom: -34px;
   left: 0;
   background-color: var(--accent-color);
   border-radius: 2px;
