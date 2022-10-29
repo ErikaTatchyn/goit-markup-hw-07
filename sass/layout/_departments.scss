@@ -1,18 +1,8 @@
 .departments {
-  padding-top: 0;
+  @extend %list;
 }
 
-.departments__header,
-.team__header {
-  color: var(--title-text-color);
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
-.departments__wrapper {
+.departments__item {
   position: relative;
 }
 

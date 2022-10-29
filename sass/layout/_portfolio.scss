@@ -1,17 +1,17 @@
 .portfolio-container {
-  display: flex;
+  @extend %list;
   flex-wrap: wrap;
 }
 
 .portfolio-card-link {
   display: block;
   transition: box-shadow var(--transition-dur-and-func);
-}
 
-.portfolio-card-link:hover,
-.portfolio-card-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .portfolio-card-header {
@@ -55,9 +55,7 @@
   transition: transform var(--transition-dur-and-func);
 
   .portfolio-card-link:hover &,
-.portfolio-card-link:focus & {
-  transform: translateY(0%);
+  .portfolio-card-link:focus & {
+    transform: translateY(0%);
+  }
 }
-}
-
-

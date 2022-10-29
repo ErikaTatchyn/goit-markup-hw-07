@@ -1,4 +1,4 @@
-.contact {
+.nav-auth__link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -18,16 +18,12 @@
   transition: color var(--transition-dur-and-func);
 }
 
-.contact__svg-email {
-  width: 16px;
-  height: 12px;
+.nav-auth__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.contact__svg-phone {
-  width: 10px;
-  height: 16px;
+.nav-auth__icon {
   fill: currentColor;
   margin-right: 10px;
 }

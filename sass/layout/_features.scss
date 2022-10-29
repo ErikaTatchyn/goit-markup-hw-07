@@ -1,5 +1,5 @@
 .features {
-  padding: 94px 0;
+  @extend %list;
 }
 
 .features__svg-container {
@@ -26,7 +26,7 @@
   margin-bottom: 10px;
 }
 
-.features__p {
+.features__text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;

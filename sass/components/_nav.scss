@@ -4,10 +4,15 @@
 }
 
 .nav {
+  @extend %list;
   gap: 50px;
 }
 
-.nav__item {
+.nav-auth {
+  @extend %list;
+}
+
+.nav__link {
   position: relative;
   color: var(--title-text-color);
   font-weight: 500;
@@ -23,7 +28,7 @@
   }
 }
 
-.current {
+.nav__link_current {
   color: var(--accent-color);
 
   &::after {
